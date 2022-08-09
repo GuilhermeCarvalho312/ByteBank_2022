@@ -1,1 +1,17 @@
 Arquivo de anotações do curso
+
+AULA - 1: Conhecendo o ambiente
+Instalar e utilizar o Angular CLI;
+Criar uma aplicação Angular do zero;
+Utilizar o próprio CLI para levantar um servidor de desenvolvimento;
+Como é organizada uma aplicação Angular;
+Criar e utilizar um componente Angular.
+
+appModule é o modulo principal, modulo de entrada
+
+Aula - 2: Formulário de nova Transferência
+alt+shift+f = formata o documento
+() = abrir os parenteses no HTML mostra varios eventos possiveis de se colocar
+() => isto que é o eventBind
+[] => property binding, valor do template para o componente
+[()] => isso aqui é o two-way data binding, assim eu consigo associar propriedades no HTML com a classe. Ao contrário do property binding a troca de informações é vice-versa.
