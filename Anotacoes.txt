@@ -15,3 +15,11 @@ alt+shift+f = formata o documento
 () => isto que é o eventBind
 [] => property binding, valor do template para o componente
 [()] => isso aqui é o two-way data binding, assim eu consigo associar propriedades no HTML com a classe. Ao contrário do property binding a troca de informações é vice-versa.
+
+Aula - 3: Exportando dados do componente
+@Output => É um decorator, O decorator é uma forma de dizer ao Angular como uma classe deve ser tratada, a função desse decorator é exportar os dados do componente
+{{}} => interpolação de valor
+
+Utilizar o metadata @Output() para criar um evento para o seu componente.
+Emitir eventos dentro do seu componente.
+Utilizar o event binding para capturar o evento propagando pelo componente.
