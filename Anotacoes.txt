@@ -12,7 +12,7 @@ appModule é o modulo principal, modulo de entrada
 Aula - 2: Formulário de nova Transferência
 alt+shift+f = formata o documento
 () = abrir os parenteses no HTML mostra varios eventos possiveis de se colocar
-() => isto que é o eventBind
+() => isto que é o eventBind, pra metodos
 [] => property binding, valor do template para o componente
 [()] => isso aqui é o two-way data binding, assim eu consigo associar propriedades no HTML com a classe. Ao contrário do property binding a troca de informações é vice-versa.
 
@@ -23,3 +23,14 @@ Aula - 3: Exportando dados do componente
 Utilizar o metadata @Output() para criar um evento para o seu componente.
 Emitir eventos dentro do seu componente.
 Utilizar o event binding para capturar o evento propagando pelo componente.
+
+Aula - 4: Transferências
+Pra criar um componente novo tem que dar o comando ng generate component nomeDoComponente
+Pipe trabalha na formatação
+pipe =  Ele é composto por uma função a ser utilizada no template HTML. Esta função aceita valores de entrada e retorna um valor transformado
+localeId é pra trocar o padrao do angular para o brasil
+spreadOperator ... = O principal objetivo do operador spread é espalhar/propagar os elementos de um array ou objeto. Isto é melhor explicado com exemplos.
+
+Utilizar o metadata @Input() para receber valores em um componente;
+Exibir uma lista de dados através da diretiva *ngFor;
+Configurar o formato de horas na aplicação.
