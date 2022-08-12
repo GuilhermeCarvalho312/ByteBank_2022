@@ -34,3 +34,12 @@ spreadOperator ... = O principal objetivo do operador spread é espalhar/propaga
 Utilizar o metadata @Input() para receber valores em um componente;
 Exibir uma lista de dados através da diretiva *ngFor;
 Configurar o formato de horas na aplicação.
+
+Aula - 5: service
+É possível colocar um else no ngIF em conjunto com o ngIf
+Os serviços no Angular nos auxiliam a separar do componente algumas informações importantes e também o modo como vamos obtê-las, lógica de negócios, além de dados de requisições ao servidor.
+@Injectable = O decorator Injectable é para o Angular controlar e lidar com injeções de dependência. Quando você adicione esse decorator para seu serviço ou alguma outra classe, você está dizendo que o mesmo pode ser injetável como dependências em outros componentes.
+Constructor = O construtor é um método especial para criar e inicializar um objeto criado a partir de uma classe.
+
+Utilizar a diretiva *ngIf;
+Trabalhar com Service
